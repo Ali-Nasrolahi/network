@@ -41,7 +41,7 @@ kali:
 ovs:
 	sudo ovs-vsctl add-br wan_sw
 	sudo ovs-vsctl add-br lan_sw
-	sudo ovs-vsctl add-port wan_sw kali_wan_tap 
+	sudo ovs-vsctl add-port wan_sw kali_wan_tap
 	sudo ovs-vsctl add-port wan_sw pfsense_wan_tap
 	sudo ovs-vsctl add-port lan_sw pfsense_lan_tap
 	sudo ovs-vsctl add-port lan_sw debian_lan_tap
